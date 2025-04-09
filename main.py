@@ -6,9 +6,9 @@ import requests
 # Configurazione dei sensori DHT con i rispettivi pin GPIO
 sensors = [
     adafruit_dht.DHT11(board.D4),  # Sensore 1
-    adafruit_dht.DHT11(board.D17), # Sensore 2
-    adafruit_dht.DHT11(board.D27), # Sensore 3
-    adafruit_dht.DHT11(board.D22), # Sensore 4
+    adafruit_dht.DHT11(board.D5), # Sensore 2
+    adafruit_dht.DHT11(board.D6), # Sensore 3
+    adafruit_dht.DHT11(board.D12), # Sensore 4
 ]
 
 # Nostra chiave API da usare per le richieste
